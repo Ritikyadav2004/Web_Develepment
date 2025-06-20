@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="/submit">
+        <fieldset>
+        <legend>
+            Personal information
+        </legend>
+        <label for "name">Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for "dob">Date of Birth:</label>
+        <input type="date" id="dob"> <br> <br>
+
+        <span for="gender">Gender:</span>
+        <input type="radio" name="gender">
+        <span>Male</span>
+        <input type="radio" name="gender">
+        <span>Female</span>
+        <input type="radio" name="gender">
+        <span>other</span>
+    </fieldset>
+
+    <br>
+    <fieldset>
+        <legend>
+            Contact information
+        </legend>
+
+        <span for="email"> Email</span>
+        <input type="text" name=email><br> <br>
+        <span for="phone"> Phone Number: </span>
+        <input type="text" name="phone"><br><br>
+
+        <span>Address</span><br>
+        <textarea name="Address" id=""></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            Account Details
+        </legend>
+        <span>User Name : </span>
+        <input type="text"><br><br>
+
+        <span> Password:</span>
+        <input type="text" name="Password" id=""><br><br>
+
+        <span>Confirm Password:</span>
+        <input type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            Preferences
+        </legend>
+
+        <span>favorite Color</span>
+        <input type="color" name="" id=""><br><br>
+
+        <span>Upload Profile Picture</span>
+        <input type="file"><br><br>
+
+        <span for="id">Intrests:</span>
+        <input type="checkbox" name="" id="">
+        <span> Reading</span>
+        <input type="checkbox">
+        <span>Trveling</span>
+        <input type="checkbox">
+        <span>Gaming</span>
+
+
+
+
+
+
+    </fieldset>
+    <input type="submit">
+    </form>
+</body>
+
+</html>
